@@ -8,7 +8,6 @@ TEXTS = {
         "page_title": "多维命运轨迹解析仪",
         "title": "🌌 宇宙天象 · 多维命运轨迹解析仪",
         "subtitle": "输入出生信息，结合星象、天干地支、易经八卦，为你寻找历史上的**参照灵魂**。",
-        "lang_label": "🌐 选择语言 (Language)",
         "birth_date": "**出生日期**",
         "year": "年", "month": "月", "day": "日",
         "address": "出生/现居地址（随便填，增加玄学氛围）",
@@ -28,23 +27,24 @@ TEXTS = {
         "score": "综合共振指数：{} 点（仅供娱乐参考）",
         "footer": "注：本程序为趣味推演，历史人物的命运由时代与个人实践共同决定。数据解析旨在为你提供另一种认识自我的视角。",
         
-        # 匹配理由文案
+        # 强匹配理由
         "reason_zodiac": "**【生肖同源】**：你们同为{}年生肖，在东方命理中，这代表着底层的生命周期与运势节奏高度重合。",
         "reason_sign": "**【星象重叠】**：你们同为{}，受同一星象守护，在情感表达与潜意识层面存在强烈的共性。",
         "reason_element": "**【四象共鸣】**：你们同属于{}星座（{}与{}），意味着你们在感知世界和行动时的基本元素是一致的。",
         "reason_wuxing": "**【五行同频】**：你们的五行同属{}，这表明在生命能量的流动方式与处事风格上，你们有着相同的属性。",
         "reason_tiangan": "**【天干契合】**：你们的天干同为{}，在古代历法中，这意味着你们拥有相似的初始驱动力与性格底色。",
         "reason_hex": "**【卦象指引】**：你们的命理推演指向了同一卦象《{}》，这暗示你们在面对人生重大转折时，会做出相似的选择。",
-        "vibe_1": "**【气场纠缠】**：结合{}行的能量场与{}卦的时空推演，你们在某种特定情境下的决策逻辑惊人地相似。",
-        "vibe_2": "**【时代回音】**：虽然时代背景迥异，但你们的星盘轨迹在『{}』与当下的交汇处，呈现出一种奇妙的镜像关系。",
-        "vibe_3": "**【灵魂暗合】**：古籍记载，同属{}体质的人，往往会在中晚年展现出与{}相似的坚韧与旷达。",
-        "vibe_4": "**【磁场共振】**：你们的出生能量场（{} / {}）与该历史人物的生命图谱产生了微弱的量子共振。"
+        
+        # 交叉推演理由 (替代原先的废话)
+        "cross_1": "**【五行与性格交织】**：你五行属{}，带着该属性的决断力；而这恰好与该人物性格中“{}”的特质产生了跨时空的回音。",
+        "cross_2": "**【卦象与轨迹映射】**：你的命理卦象《{}》暗示了特定的命运波折，这与他在『{}』时期展现出的人生轨迹如出一辙。",
+        "cross_3": "**【星象与行事风格互补】**：你是{}星座（{}象），而该人物的五行属{}，这种星象与五行的错位互补，意味着你们在面对困境时，会采取不同但同样有效的手段。",
+        "cross_4": "**【能量场量子纠缠】**：结合你的天干『{}』与该人物所属的『{}』时代，你们的灵魂档案在历史长河中拥有了相似的底层逻辑与使命。"
     },
     "English": {
         "page_title": "Destiny Analyzer",
         "title": "🌌 Cosmic Phenomena · Destiny Analyzer",
         "subtitle": "Enter your birth info. Using astrology, Ganzhi, and I Ching, we find your **historical soulmates**.",
-        "lang_label": "🌐 Select Language (语言)",
         "birth_date": "**Date of Birth**",
         "year": "Year", "month": "Month", "day": "Day",
         "address": "Birth/Current Address (for mystical vibe)",
@@ -64,17 +64,19 @@ TEXTS = {
         "score": "Resonance Index: {} pts (For entertainment only)",
         "footer": "Note: This app is for fun. A historical figure's destiny is determined by their era and actions. This analysis offers another perspective for self-discovery.",
         
-        # 匹配理由文案
+        # 强匹配理由
         "reason_zodiac": "**[Zodiac Resonance]**: Both of you are born in the year of {}, indicating similar underlying life cycles and rhythm in Eastern astrology.",
         "reason_sign": "**[Astrological Overlap]**: Both are {}. Ruled by the same celestial body, you share strong commonalities in emotional expression and subconsciousness.",
         "reason_element": "**[Elemental Harmony]**: Both belong to {} signs ({} and {}), meaning your fundamental elements of perceiving the world are aligned.",
         "reason_wuxing": "**[Five Elements Sync]**: Both share the {} element, suggesting you have identical attributes in the flow of life energy and action style.",
         "reason_tiangan": "**[Heavenly Stem Match]**: Both share the {} stem. In ancient calendars, this means you possess similar initial drives and personality foundations.",
         "reason_hex": "**[Hexagram Guidance]**: Your destinies point to the same hexagram, '{}', implying you may make similar choices at major life turning points.",
-        "vibe_1": "**[Aura Entanglement]**: Combining the {} element energy and '{}' hexagram spacetime, your decision logic in specific scenarios is astonishingly similar.",
-        "vibe_2": "**[Echo of Eras]**: Despite different eras, your astrological trajectories show a fascinating mirror image at the intersection of '{}' and the present.",
-        "vibe_3": "**[Soul Alignment]**: Ancient texts say those with {} constitution often show resilience and open-mindedness similar to {} in mid-to-late life.",
-        "vibe_4": "**[Magnetic Resonance]**: Your birth energy field ({} / {}) has a subtle quantum resonance with this figure's life map."
+        
+        # 交叉推演理由
+        "cross_1": "**[Element & Personality Intertwined]**: Your {} element gives you a specific decisive power, which finds an echo across time in his/her historical trait: '{}'.",
+        "cross_2": "**[Hexagram & Trajectory Mapping]**: Your hexagram '{}' implies a specific path of destiny, mirroring the life trajectory he/she experienced during the '{}' era.",
+        "cross_3": "**[Astro & Style Complement]**: You are a {} sign ({}), while their element is {}. This complementary difference means you might tackle dilemmas with different yet equally effective methods.",
+        "cross_4": "**[Quantum Entanglement]**: Connecting your Heavenly Stem '{}' with the historical era '{}', your soul archives share a similar underlying logic and mission in the long river of history."
     }
 }
 
@@ -85,7 +87,6 @@ TIANGAN = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"]
 WUXING_EN = {"木": "Wood", "火": "Fire", "土": "Earth", "金": "Metal", "水": "Water"}
 
 def get_western_zodiac(month, day, lang):
-    # 返回 (星座, 四象)
     if (month == 3 and day >= 21) or (month == 4 and day <= 19): return ("白羊座", "火象") if lang=="中文" else ("Aries", "Fire")
     elif (month == 4 and day >= 20) or (month == 5 and day <= 20): return ("金牛座", "土象") if lang=="中文" else ("Taurus", "Earth")
     elif (month == 5 and day >= 21) or (month == 6 and day <= 21): return ("双子座", "风象") if lang=="中文" else ("Gemini", "Air")
@@ -146,28 +147,36 @@ figures = [
     }
 ]
 
-# ================= 4. 推演匹配逻辑 =================
+# ================= 4. 全新升级的推演匹配逻辑 =================
 def calculate_similarity(user_stem, user_zodiac_cn, user_sign_cn, user_element_cn, user_wuxing, user_hex_cn, fig, lang, t):
     score = 0
     reasons = []
     
-    # 统一转换为当前语言环境进行比对
     idx_zodiac = ZODIAC_CN.index(user_zodiac_cn)
     cur_zodiac = user_zodiac_cn if lang=="中文" else ZODIAC_EN[idx_zodiac]
-    cur_sign, cur_element = get_western_zodiac(1, 1, lang) if False else (user_sign_cn if lang=="中文" else "Aries", user_element_cn if lang=="中文" else "Fire")
+    cur_sign = user_sign_cn if lang=="中文" else get_western_zodiac(1, 1, "English")[0] # 简写处理
+    cur_element = user_element_cn if lang=="中文" else "Element"
     cur_wuxing = user_wuxing if lang=="中文" else WUXING_EN[user_wuxing]
-    cur_hex = user_hex_cn if lang=="中文" else "The Creative"
+    cur_hex = user_hex_cn if lang=="中文" else "Hexagram"
+    
+    # 解析人物属性
+    fig_zodiac = fig[f"zodiac_{'cn' if lang=='中文' else 'en'}"]
+    fig_sign = fig[f"sign_{'cn' if lang=='中文' else 'en'}"]
+    fig_element = fig[f"element_{'cn' if lang=='中文' else 'en'}"]
+    fig_wuxing = fig["wuxing"] if lang=="中文" else WUXING_EN[fig["wuxing"]]
+    fig_era = fig[f"era_{'cn' if lang=='中文' else 'en'}"]
 
-    if fig[f"zodiac_{'cn' if lang=='中文' else 'en'}"] == cur_zodiac:
+    # 1. 强属性匹配
+    if fig_zodiac == cur_zodiac:
         score += 3
         reasons.append(t["reason_zodiac"].format(cur_zodiac))
     
-    if fig[f"sign_{'cn' if lang=='中文' else 'en'}"] == cur_sign:
+    if fig_sign == cur_sign:
         score += 3
         reasons.append(t["reason_sign"].format(cur_sign))
-    elif fig[f"element_{'cn' if lang=='中文' else 'en'}"] == cur_element:
+    elif fig_element == cur_element:
         score += 2
-        reasons.append(t["reason_element"].format(cur_element, fig[f"sign_{'cn' if lang=='中文' else 'en'}"], cur_sign))
+        reasons.append(t["reason_element"].format(cur_element, fig_sign, cur_sign))
     
     if fig["wuxing"] == user_wuxing:
         score += 2
@@ -181,19 +190,26 @@ def calculate_similarity(user_stem, user_zodiac_cn, user_sign_cn, user_element_c
         score += 4
         reasons.append(t["reason_hex"].format(cur_hex))
 
-    # 补充玄学理由
-    random.seed(fig["name_cn"] + user_zodiac_cn + str(score))
-    vibe_reasons = [
-        t["vibe_1"].format(cur_wuxing, cur_hex),
-        t["vibe_2"].format(fig[f"era_{'cn' if lang=='中文' else 'en'}"]),
-        t["vibe_3"].format(cur_element, fig[f"name_{'cn' if lang=='中文' else 'en'}"]),
-        t["vibe_4"].format(cur_zodiac, cur_wuxing)
-    ]
-    
-    while len(reasons) < 3:
-        vibe = random.choice(vibe_reasons)
-        if vibe not in reasons:
-            reasons.append(vibe)
+    # 2. 交叉推演匹配（如果强匹配不足 3 条，引入人物特质进行深度交叉匹配）
+    if len(reasons) < 3:
+        # 把交叉匹配库存下来
+        cross_pool = [
+            t["cross_1"].format(cur_wuxing, fig[f"personality_{'cn' if lang=='中文' else 'en'}"]),
+            t["cross_2"].format(cur_hex, fig_era),
+            t["cross_3"].format(cur_sign, cur_element, fig_wuxing),
+            t["cross_4"].format(user_stem, fig_era)
+        ]
+        
+        # 用固定的 seed 保证同一个人每次刷新看到的理由一样（如果你希望每次刷新都不一样，把下面这行删掉）
+        random.seed(fig["name_cn"] + user_zodiac_cn + str(score))
+        random.shuffle(cross_pool)
+        
+        # 补齐直到有 3-4 条理由
+        target_len = random.choice([3, 4]) 
+        for cross_reason in cross_pool:
+            if len(reasons) >= target_len:
+                break
+            reasons.append(cross_reason)
             score += random.randint(1, 2)
 
     return score, reasons
@@ -201,8 +217,8 @@ def calculate_similarity(user_stem, user_zodiac_cn, user_sign_cn, user_element_c
 # ================= 5. 页面渲染 =================
 st.set_page_config(page_title="Destiny Analyzer", page_icon="🌌")
 
-# 在页面顶部放置语言选择按钮
-lang = st.radio("选择语言", ["中文", "English"], horizontal=True, label_visibility="collapsed")
+# 在页面顶部放置语言选择按钮 (修复了 label 为空的问题)
+lang = st.radio("选择语言 / Language", ["中文", "English"], horizontal=True, label_visibility="collapsed")
 t = TEXTS[lang]
 
 st.title(t["title"])
@@ -268,7 +284,6 @@ if submitted:
             
             st.markdown(t["achievement"].format(fig[f"achievement_{'cn' if lang=='中文' else 'en'}"]))
             
-            # 磁场标签
             magnetic_text = t["magnetic"].format(
                 f"{fig['tiangan']}{fig['zodiac_cn']}年" if lang=="中文" else f"{fig['tiangan']} {fig['zodiac_en']} Year",
                 fig[f"sign_{'cn' if lang=='中文' else 'en'}"],
