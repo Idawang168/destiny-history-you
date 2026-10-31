@@ -12,7 +12,7 @@ TEXTS = {
         "birth_date": "**出生日期**",
         "year": "年", "month": "月", "day": "日",
         "address": "出生/现居地址（随便填，增加玄学氛围）",
-        "address_default": "中国湖南娄底",
+        "address_default": "美国纽约",
         "submit": "开始推演",
         "profile_title": "🔮 你的多维灵魂画像",
         "hexagram": "易经卦象", "ganzhi": "天干地支", "sign": "星座星象", "wuxing": "五行属性",
@@ -202,7 +202,7 @@ def calculate_similarity(user_stem, user_zodiac_cn, user_sign_cn, user_element_c
 st.set_page_config(page_title="Destiny Analyzer", page_icon="🌌")
 
 # 在页面顶部放置语言选择按钮
-lang = st.radio("", ["中文", "English"], horizontal=True, label_visibility="collapsed")
+lang = st.radio("选择语言", ["中文", "English"], horizontal=True, label_visibility="collapsed")
 t = TEXTS[lang]
 
 st.title(t["title"])
